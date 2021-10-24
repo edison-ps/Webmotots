@@ -19,11 +19,11 @@ Desenvolvimento:
 > As seguintes variávies de ambiente devem ser informadas:
 
 SERVER_PORT - Porta do servidor<br />
-WEBMOTORS_SERVER - Enredereço do servidor<br />
-WEBMOTORS_USER - Usuário do banco dde dados<br />
-WEBMOTORS_PASSWORD - Senha do banco dde dados<br />
-WEBMOTORS_PORT - Porta do banco dde dados<br />
-WEBMOTORS_DATABASE - Nome do banco dde dados<br />
+WEBMOTORS_SERVER - Endereço do servidor<br />
+WEBMOTORS_USER - Usuário do banco de dados<br />
+WEBMOTORS_PASSWORD - Senha do banco de dados<br />
+WEBMOTORS_PORT - Porta do banco de dados<br />
+WEBMOTORS_DATABASE - Nome do banco de dados<br />
 
 
 > Dependências utilizadas:
@@ -38,7 +38,7 @@ nodemon: 2.0.14<br />
 
 Instalação através do comando npm install <dependência>
 
-Execução através do comando npm start
+Execução da API através do comando npm start
 
 > Foram desenvolvidas as seguintes rotas:
 
