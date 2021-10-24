@@ -1,10 +1,10 @@
 # Teste prático de back-end Webmotors
 
 ## Contexto
-O desafio consiste em desevenvolvimento de um CRUD de anúncios com os seguintes campos:
+O desafio consiste no desevenvolvimento de um CRUD de anúncios com os seguintes campos:
 
 
-  "ID": int,
+  "ID": int,<br />
   "marca": string,
   "modelo": string,
   "versao": string,
