@@ -16,8 +16,8 @@ const adSchema = joi.object({
   marca: joi.string().required(),
   modelo: joi.string().required(),
   versao: joi.string().required(),
-  ano: joi.number().required(),
-  quilometragem: joi.string().required(),
+  ano: joi.number().integer().required(),
+  quilometragem: joi.number().integer().required(),
   observacao: joi.string().required(),
 });
 
@@ -63,6 +63,8 @@ const remove = async (id) => {
 };
 
 const update = async (id, ad) => {
+
+
   const adById = await advertsModels.getById(id);
 
   validateAd(ad);

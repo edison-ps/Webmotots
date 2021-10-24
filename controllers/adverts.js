@@ -8,7 +8,7 @@ const create = async (req, res, next) => {
 
     const newAd = await advertsServices.create(ad);
 
-    return res.status(CREATED_STATUS).json(newUser);
+    return res.status(CREATED_STATUS).json(newAd);
   } catch (err) {
     next(err);
   }
@@ -38,7 +38,7 @@ const getById = async (req, res, next) => {
 const remove = async (req, res, next) => {
   try {
 
-    const ad = await userServices.remove(req.params.id);
+    const ad = await advertsServices.remove(req.params.id);
 
     return res.status(OK_STATUS).send();
   } catch (err) {
@@ -51,7 +51,7 @@ const update = async (req, res, next) => {
 
     const ad = req.body;
 
-    const updateAd = await advertsServices.create(req.params.id, ad);
+    const updateAd = await advertsServices.update(req.params.id, ad);
 
     return res.status(OK_STATUS).json(updateAd);
   } catch (err) {
