@@ -40,10 +40,10 @@ Instalação através do comando npm install <dependência>
 
 Execução através do comando npm start
 
-> Foram desenvolvida as seguintes rotas:
+> Foram desenvolvidas as seguintes rotas:
 
 
-* /adverts - POST - Dverão ser informados no body da requisição os seguintes dados:
+/adverts - POST - Dverão ser informados no body da requisição os seguintes dados:
 
 ```json
 {
@@ -55,13 +55,14 @@ Execução através do comando npm start
   "observacao": "string",
 }
 
-* /adverts - GET - Sem informar nenhum parâmetro devolve todos os registros do banco.
 
-* /adverts/:id - GET - Informando o ID retorna o registro correspondente.
+/adverts - GET - Sem informar nenhum parâmetro devolve todos os registros do banco.
 
-* /adverts/:id - DELETE - Deve ser informado o ID do registro a ser excluído
+/adverts/:id - GET - Informando o ID retorna o registro correspondente.
 
-* /adverts/:id - PUT - Deve ser informado o ID do registro a ser alterado e no body da requisição os seguintes dados:
+/adverts/:id - DELETE - Deve ser informado o ID do registro a ser excluído
+
+/adverts/:id - PUT - Deve ser informado o ID do registro a ser alterado e no body da requisição os seguintes dados:
 
 ```json
 {
