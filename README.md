@@ -4,13 +4,13 @@
 O desafio consiste no desevenvolvimento de um CRUD de anúncios com os seguintes campos:
 
 
-  "ID": int,<br />
-  "marca": string,
-  "modelo": string,
-  "versao": string,
-  "ano": int,
-  "quilometragem": int,
-  "observacao": string,skydive
+  ID: int,<br />
+  marca: string,<br />
+  modelo: string,<br />
+  versao: string,<br />
+  ano: int,<br />
+  quilometragem: int,<br />
+  observacao: string,<br />
 
 
 Desenvolvimento:
