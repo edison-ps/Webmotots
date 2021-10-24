@@ -56,13 +56,6 @@ Execução através do comando npm start
 }
 
 
-/adverts - GET - Sem informar nenhum parâmetro devolve todos os registros do banco.
-
-/adverts/:id - GET - Informando o ID retorna o registro correspondente.
-
-/adverts/:id - DELETE - Deve ser informado o ID do registro a ser excluído
-
-/adverts/:id - PUT - Deve ser informado o ID do registro a ser alterado e no body da requisição os seguintes dados:
 
 ```json
 {
