@@ -14,7 +14,8 @@ O desafio consiste no desevenvolvimento de um CRUD de anúncios com os seguintes
 
 
 Desenvolvimento:
-> Nas instruções do projeto é indicado que o desafio deve ser elaborado em .NET, como não possuo essa stack e na descrição da vaga foi informado Node.js tomei a liberda de desenvolver em Node.js e MySQL. 
+> Nas instruções do projeto é indicado que o desafio deve ser elaborado em .NET, como não possuo essa stack e na descrição da vaga foi informado Node.js tomei a liberde de desenvolver em Node.js e MySQL. 
+
 
 > As seguintes variávies de ambiente devem ser informadas:
 
@@ -36,13 +37,16 @@ joi: 17.4.2<br />
 mysql2: 2.3.2<br />
 nodemon: 2.0.14<br />
 
+
 > Instalação:
 
 Instalação das pendenências é através do comando npm install <dependência>
 
+
 > Execução:
 
 Execução da API é através do comando npm start
+
 
 > Foram desenvolvidas as seguintes rotas:
 
