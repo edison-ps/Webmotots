@@ -1,4 +1,4 @@
-const connection = require('./connections');
+const connection = require('./connection');
 
 const create = async(ad) => {
   const { marca, modelo, versao, ano, quilometragem, observacao } = ad;

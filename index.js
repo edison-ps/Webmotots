@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const userControllers = require('./controllers/users');
+const advertsControllers = require('./controllers/adverts');
 
 const { sendErrorMessage } = require('./middwares/errors');
 
@@ -14,6 +14,6 @@ app.use(bodyParser.json());
 
 app.listen(SERVER_PORT, () => console.log(`API online na porta ${SERVER_PORT}`));
 
-app.post('/adverts', advertsControllers.login);
+app.post('/adverts', advertsControllers.create);
 
 app.use(sendErrorMessage);
