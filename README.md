@@ -19,20 +19,32 @@ Desenvolvimento:
 > As seguintes variávies de ambiente devem ser informadas:
 
 SERVER_PORT - Porta do servidor
+
 WEBMOTORS_SERVER - Enredereço do servidor
+
 WEBMOTORS_USER - Usuário do banco dde dados
+
 WEBMOTORS_PASSWORD - Senha do banco dde dados
+
 WEBMOTORS_PORT - Porta do banco dde dados
+
 WEBMOTORS_DATABASE - Nome do banco dde dados
+
 
 > Dependências utilizadas:
 
 body-parser: 1.19.0
+
 dotenv: 10.0.0
+
 eslint: 8.1.0
+
 express: 4.17.1
+
 joi: 17.4.2
+
 mysql2: 2.3.2
+
 nodemon: 2.0.14
 
 Instalação através do comando npm install <dependência>
@@ -46,12 +58,12 @@ Execução através do comando npm start
 
 ```json
 {
-  "marca": string,
-  "modelo": string,
-  "versao": string,
-  "ano": int,
-  "quilometragem": int,
-  "observacao": string,skydive
+  "marca": "string",
+  "modelo": "string",
+  "versao": "string",
+  "ano": "int",
+  "quilometragem": "int",
+  "observacao": "string",
 }
 
 * /adverts - GET - Sem informar nenhum parâmetro devolve todos os registros do banco.
@@ -64,11 +76,11 @@ Execução através do comando npm start
 
 ```json
 {
-  "marca": string,
-  "modelo": string,
-  "versao": string,
-  "ano": int,
-  "quilometragem": int,
-  "observacao": string,skydive
+  "marca": "string",
+  "modelo": "string",
+  "versao": "string",
+  "ano": "int",
+  "quilometragem": "int",
+  "observacao": "string",
 }
 
