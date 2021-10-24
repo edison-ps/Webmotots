@@ -55,4 +55,3 @@ Execução através do comando npm start
   "observacao": "string",
 }
 
-/adverts - GET - Sem informar nenhum parâmetro devolve todos os registros do banco.
