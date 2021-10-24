@@ -57,7 +57,6 @@ Execução através do comando npm start
 
 
 
-```json
 {
   "marca": "string",
   "modelo": "string",
