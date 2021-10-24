@@ -28,13 +28,13 @@ WEBMOTORS_DATABASE - Nome do banco dde dados<br />
 
 > Dependências utilizadas:
 
-body-parser: 1.19.0
-dotenv: 10.0.0
-eslint: 8.1.0
-express: 4.17.1
-joi: 17.4.2
-mysql2: 2.3.2
-nodemon: 2.0.14
+body-parser: 1.19.0<br />
+dotenv: 10.0.0<br />
+eslint: 8.1.0<br />
+express: 4.17.1<br />
+joi: 17.4.2<br />
+mysql2: 2.3.2<br />
+nodemon: 2.0.14<br />
 
 Instalação através do comando npm install <dependência>
 
