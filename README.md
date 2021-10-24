@@ -54,14 +54,3 @@ Execução através do comando npm start
   "quilometragem": "int",
   "observacao": "string",
 }
-testet
-```json
-{
-  "marca": "string",
-  "modelo": "string",
-  "versao": "string",
-  "ano": "int",
-  "quilometragem": "int",
-  "observacao": "string",
-}
-
