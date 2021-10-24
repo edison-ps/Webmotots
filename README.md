@@ -36,9 +36,13 @@ joi: 17.4.2<br />
 mysql2: 2.3.2<br />
 nodemon: 2.0.14<br />
 
-Instalação através do comando npm install <dependência>
+> Instalação:
 
-Execução da API através do comando npm start
+Instalação das pendenências é através do comando npm install <dependência>
+
+> Execução:
+
+Execução da API é através do comando npm start
 
 > Foram desenvolvidas as seguintes rotas:
 
