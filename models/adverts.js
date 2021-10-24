@@ -1,11 +1,11 @@
 const connection = require('./connections');
 
 const create = async(ad) => {
-  const { brand, model, version, year, mileage,  observation} = ad;
+  const { marca, modelo, versao, ano, quilometragem, observacao } = ad;
 
   const newAd = await connection.execute(
-    'INSERT INTO teste_webmotors(brand, model, version, year, mileage,  observation) VALUES (?, ?, ?, ?, ?, ?)',
-    ['marca', 'modelo', 'versao', 'ano', 'quilometragem', 'observacao']
+    'INSERT INTO teste_webmotors(marca, modelo, versao, ano, quilometragem, observacao) VALUES (?, ?, ?, ?, ?, ?)',
+    [marca, modelo, versao, ano, quilometragem, observacao]
   );
 
   return newAd;
@@ -25,13 +25,13 @@ const getById = async(id) => {
 
 const remove = async(id) => connection.execute('DELETE FROM teste_webmotors WHERE ID = ?', [id]);
 
-const update = async(ad) => {
-    const { ID, brand, model, version, year, mileage,  observation} = ad;
+const update = async(id, ad) => {
+    const {marca, modelo, versao, ano, quilometragem, observacao} = ad;
 
     const updateAd = await connection.execute(
         `UPDATE teste_webmotors SET marca = ?, modelo = ?, versao = ?, ano = ?, quilometragem = ?,
         observacao = ? WHERE ID = ?`,
-        [brand, model, version, year, mileage,  observation, ID]
+        [marca, modelo, versao, ano, quilometragem, observacao, id]
     ); 
 
     return updateAd;
