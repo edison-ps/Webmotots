@@ -18,8 +18,13 @@ Desenvolvimento:
 
 > As seguintes variávies de ambiente devem ser informadas:
 
-SERVER_PORT - Porta do servidor
-WEBMOTORS_SERVER - Enredereço do servidor
+SERVER_PORT - Porta do servidor<br />
+WEBMOTORS_SERVER - Enredereço do servidor<br />
+WEBMOTORS_USER - Usuário do banco dde dados<br />
+WEBMOTORS_PASSWORD - Senha do banco dde dados<br />
+WEBMOTORS_PORT - Porta do banco dde dados<br />
+WEBMOTORS_DATABASE - Nome do banco dde dados<br />
+
 
 > Dependências utilizadas:
 
