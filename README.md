@@ -43,15 +43,15 @@ Execução através do comando npm start
 > Foram desenvolvidas as seguintes rotas:
 
 
-/adverts - POST - Dverão ser informados no body da requisição os seguintes dados:
+* /adverts - POST - Deverão ser informados no body da requisição os dados conforme JSON abaixo:
 
-/adverts - GET - Sem informar nenhum parâmetro devolve todos os registros do banco.
+* /adverts - GET - Sem informar nenhum parâmetro devolve todos os registros do banco.
 
-/adverts/:id - GET - Informando o ID retorna o registro correspondente.
+* /adverts/:id - GET - Informando o ID retorna o registro correspondente.
 
-/adverts/:id - DELETE - Deve ser informado o ID do registro a ser excluído
+* /adverts/:id - DELETE - Deve ser informado o ID do registro a ser excluído
 
-/adverts/:id - PUT - Deve ser informado o ID do registro a ser alterado e no body da requisição os seguintes dados:
+* /adverts/:id - PUT - Deve ser informado o ID do registro a ser alterado e no body da requisição os dados conforme JSON abaixo:
 
 ```json
 {
