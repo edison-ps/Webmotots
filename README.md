@@ -55,3 +55,4 @@ Execução através do comando npm start
   "observacao": "string",
 }
 
+/adverts - GET
